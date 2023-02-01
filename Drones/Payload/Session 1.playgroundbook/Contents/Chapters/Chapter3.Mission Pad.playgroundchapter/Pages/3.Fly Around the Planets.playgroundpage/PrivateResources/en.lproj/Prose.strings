@@ -1,0 +1,18 @@
+"FirstProseBlock" = "
+**Challenge:** Control Tello to fly around the galaxy with the given coordinates.
+
+Before you go to the new galaxy, you need to practice the coordinate flying. You will be given 4 sets of coordinates, which represent the 4 corners of a square area, and you should pass through them in a single flight.
+
+The coordinates are :
+* C1: (x: -30, y: 30, z: 80)
+* C2: (x: -30, y: -30, z: 80)
+* C3: (x: 30, y: -30, z: 80)
+* C4: (x: 30, y: 30, z: 80)
+
+* Callout(Tips):
+  1. Remember to use the Mission Pad and check its ID.
+  2. Define a variable pID and assign the Mission Pad’s ID to it.
+  3. Use `flyLine(x:Int, y:Int, z:Int, pad: Int)` command. Notice the pad parameter here is changed to pad.
+  4. After takeoff, fly to C1 which is the lower left corner first.
+
+";

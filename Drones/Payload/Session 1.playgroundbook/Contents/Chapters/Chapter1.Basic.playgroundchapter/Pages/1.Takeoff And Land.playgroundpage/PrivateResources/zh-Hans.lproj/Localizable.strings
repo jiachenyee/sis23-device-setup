@@ -1,0 +1,11 @@
+/* TakeoffLand page success */
+"### Congratulations!\nYou've written your first command to control Tello!\n\n[**Next Page**](@next)" = "### 恭喜！\n你写出了第一行控制 Tello 的代码。\n\n[**下一页**](@next)";
+
+/* land hint */
+"To land you need to use the `land()` command." = "让 Tello 降落你需要使用 `land()` 指令。";
+
+/* takeOff hint */
+"To take off you need to use the `takeOff()` command." = "让 Tello 起飞你需要使用 `takeOff()` 指令。";
+
+"Scanning Tellos..." = "扫描飞机...";
+"Wifi" = "请正确设置Wifi";
