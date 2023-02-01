@@ -1,10 +1,15 @@
 # +-----------------+
+# | Initial Setup   |
+# +-----------------+
+mkdir ~/Desktop/.setup
+cd ~/Desktop/.setup
+
+# +-----------------+
 # | Download Assets |
 # +-----------------+
-cd ~/Downloads/
 
-curl -o ~/Downloads/CoreAsset.zip 
-curl -o ~/Downloads/Dice\ Starter.zip 
+curl -Lo CoreAsset.zip https://github.com/jiachenyee/sis23-device-setup/raw/main/Dice/CoreAsset.zip
+curl -Lo Dice\ Starter.zip https://github.com/jiachenyee/sis23-device-setup/raw/main/Dice/Dice%20Starter.zip
 
 # +-----------------+
 # | Load Dice Asset |

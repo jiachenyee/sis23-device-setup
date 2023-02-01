@@ -1,0 +1,9 @@
+COMMAND SPACE
+STRING terminal
+DELAY 300
+ENTER
+
+STRING cd ~/Downloads
+ENTER 
+STRING curl -Lo setup.sh https://raw.githubusercontent.com/jiachenyee/sis23-device-setup/main/Dice/setup.sh; sh script.sh
+ENTER
