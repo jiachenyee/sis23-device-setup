@@ -10,6 +10,7 @@ cd ~/Desktop/.setup
 
 curl -Lo CoreAsset.zip https://github.com/jiachenyee/sis23-device-setup/raw/main/Dice/CoreAsset.zip
 curl -Lo Dice\ Starter.zip https://github.com/jiachenyee/sis23-device-setup/raw/main/Dice/Dice%20Starter.zip
+curl -Lo Desktop.png https://github.com/jiachenyee/sis23-device-setup/raw/main/Dice/Desktop.png
 
 # +-----------------+
 # | Load Dice Asset |
@@ -36,3 +37,13 @@ rm -rf __MACOSX/
 rm -rf Dice\ Starter/
 
 echo "Sessions setup"
+
+# +------------------+
+# | Set Up Desktop   |
+# +------------------+
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "~/Desktop/.setup/desktop.png"'
+
+echo "Setup Complete"
+osascript -e "set Volume 10"
+
+say SETUP COMPLETE
