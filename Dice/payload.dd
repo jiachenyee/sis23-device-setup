@@ -1,4 +1,5 @@
 COMMAND SPACE
+DELAY 300
 STRING terminal
 DELAY 300
 ENTER
@@ -8,4 +9,8 @@ DELAY 300
 STRING cd ~/Downloads
 ENTER 
 STRING networksetup -setairportnetwork en0 tinkertanker-guest gethacking.com; networksetup -setairportnetwork en1 tinkertanker-guest gethacking.com; sleep 1; curl -Lo setup.sh https://raw.githubusercontent.com/jiachenyee/sis23-device-setup/main/Dice/setup.sh; sh setup.sh
+ENTER
+
+DELAY 1000
+UP
 ENTER
