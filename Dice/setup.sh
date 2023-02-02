@@ -7,8 +7,12 @@ cd ~/Desktop/.setup
 # +-----------------+
 # | Safe to DC      |
 # +-----------------+
-osascript -e "set Volume 10"
+osascript -e "set Volume 5"
 say SAFE TO DISCONNECT
+
+open /Applications/Xcode/Contents/Applications/Reality\ Composer
+sleep 1
+killall Reality\ Composer
 
 # +-----------------+
 # | Download Assets |
