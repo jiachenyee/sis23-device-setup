@@ -1,5 +1,7 @@
 cd ~/Desktop/
 
+say SAFE TO DISCONNECT
+
 mkdir .tmp
 
 cd .tmp
